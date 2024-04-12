@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(205, 224, 241);
+}
+.conteiner {
+    border: 2px solid rgb(179, 0, 255);
+    width: 30%;
+    border-radius: 8px;
+    margin: 30px;
+    padding-bottom: 14px;
+}
+input, button {
+    margin: 15px 15px 5px 15px;
+    height: 27px;
+    width: 92%;
+    margin-bottom: -7px;;
+}
+input[type=text] {
+    height: 110px;
+}
+button {
+    width: 422px;
+}
+h3 {
+    margin-left: 30px;
+    margin-bottom: -20px;
+}
+input[type=text]::placeholder {
+    text-align: left;
+    position: absolute;
+    top: 5px;
+    left: 2px;
+}
